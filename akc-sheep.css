@@ -1,0 +1,739 @@
+/* utility:card */
+.tralim-card{
+    /* 0px 10px 50px 0px rgba(26, 46, 85, 0.1);
+border-radius: 10px; */
+    box-shadow: 0px 2px 7px 0px rgba(26, 46, 85, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+/* utility:card */
+
+/* utility:heading */
+/* Extra extra small */
+/* Extra extra small */
+.akc-heading-xxx-small{
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+/* Extra small */
+.akc-heading-xx-small{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+/* Small */
+.akc-heading-x-small{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+/* small */
+.akc-heading-small{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+/* Medium */
+.akc-heading-medium{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+/* Large */
+.akc-heading-large{
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+/* Extra large */
+.akc-heading-x-large{
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+/* Extra extra large */
+.akc-heading-xx-large{
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+/* Extra extra extra large */
+.akc-heading-xxx-large{
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+/* Huge */
+.akc-heading-xxxx-large{
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+
+/* utility:heading */
+
+
+/* utility:rect-box */
+.akc-rect-box-xxx-small{
+    height: 5px;
+    width: 7px;
+}
+
+.akc-rect-box-xx-small{
+    height: 10px;
+    width: 15px;
+}
+
+.akc-rect-box-x-small{
+    height: 20px;
+    width: 30px;
+}
+
+.akc-rect-box-small{
+    height: 30px;
+    width: 50px;
+}
+
+.akc-rect-box-medium{
+    height: 50px;
+    width: 75px;
+}
+
+.akc-rect-box-large{
+    height: 75px;
+    width: 100px;
+}
+
+.akc-rect-box-x-large{
+    height: 100px;
+    width: 150px;
+}
+
+.akc-rect-box-xx-large{
+    height: 150px;
+    width: 200px;
+}
+
+.akc-rect-box-xxx-large{
+    height: 200px;
+    width: 300px;
+}
+/* css:rect-box */
+
+/* utility:rect-box */
+
+/* social buttons */
+/* facebook */
+.btn-facebook-light {
+    background-color: #3b5998;
+    color: white;
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    padding: 10px;
+    margin-right: 10px;
+}
+.btn-facebook-light:hover {
+    background-color: #FFFFFF;
+    color: #3b5998;
+    border: 1px solid #3b5998;
+}
+/* twitter */
+.btn-twitter-light {
+    background-color: #55acee;
+    color: white;
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    padding: 10px;
+    margin-right: 10px;
+}
+.btn-twitter-light:hover {
+    background-color: #FFFFFF;
+    color: #55acee;
+    border: 1px solid #55acee;
+}
+/* whatsapp */
+.btn-whatsapp-light {
+    background-color: #25D366;
+    color: white;
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    padding: 10px;
+    margin-right: 10px;
+}
+.btn-whatsapp-light:hover {
+    background-color: #FFFFFF;
+    color: #25D366;
+    border: 1px solid #25D366;
+}
+/* linkedin */
+.btn-linkedin-light {
+    background-color: #0077B5;
+    color: white;
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    padding: 10px;
+    margin-right: 10px;
+}
+.btn-linkedin-light:hover {
+    background-color: #FFFFFF;
+    color: #0077B5;
+    border: 1px solid #0077B5;
+}
+/* telegram */
+.btn-telegram-light {
+    background-color: #0088cc;
+    color: white;
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    padding: 10px;
+    margin-right: 10px;
+}
+.btn-telegram-light:hover {
+    background-color: #FFFFFF;
+    color: #0088cc;
+    border: 1px solid #0088cc;
+}
+/* mail */
+.btn-email-light {
+    background-color: #D44638;
+    color: white;
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    padding: 10px;
+    margin-right: 10px;
+}
+.btn-email-light:hover {
+    background-color: #FFFFFF;
+    color: #D44638;
+    border: 1px solid #D44638;
+}
+/* copy */
+.btn-copy-light {
+    background-color: #000000;
+    color: white;
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    padding: 10px;
+    margin-right: 10px;
+}
+.btn-copy-light:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 1px solid #000000;
+}
+
+
+
+
+    
+/* social buttons */
+
+
+
+
+
+
+
+/* Shades of blue */
+.akc-text-blue {
+    color: #0074D9;
+}
+
+.akc-text-light-blue {
+    color: #ADD8E6;
+}
+
+.akc-text-navy {
+    color: #001F3F;
+}
+
+/* Shades of green */
+.akc-text-green {
+    color: #2ECC40;
+}
+
+.akc-text-light-green {
+    color: #8BC34A;
+}
+
+.akc-text-olive {
+    color: #3D9970;
+}
+
+/* Shades of red */
+.akc-text-red {
+    color: #FF4136;
+}
+
+.akc-text-light-red {
+    color: #EF5350;
+}
+
+.akc-text-maroon {
+    color: #800000;
+}
+
+/* Shades of yellow */
+.akc-text-yellow {
+    color: #FFDC00;
+}
+
+.akc-text-light-yellow {
+    color: #FFF9C4;
+}
+
+.akc-text-gold {
+    color: #FFD700;
+}
+
+/* Shades of purple */
+.akc-text-violet {
+    color: #9400D3;
+}
+
+.akc-text-lavender {
+    color: #E6E6FA;
+}
+
+.akc-text-mauve {
+    color: #8B008B;
+}
+/* Shades of pink */
+.akc-text-pink {
+    color: #FF69B4;
+}
+
+.akc-text-light-pink {
+    color: #FFB6C1;
+}
+
+.akc-text-dark-pink {
+    color: #FF1493;
+}
+
+/* Shades of orange */
+.akc-text-orange {
+    color: #FFA500;
+}
+
+.akc-text-light-orange {
+    color: #FFCC80;
+}
+
+.akc-text-dark-orange {
+    color: #FF8C00;
+}
+
+/* Shades of gray */
+.akc-text-gray {
+    color: #808080;
+}
+
+.akc-text-light-gray {
+    color: #D3D3D3;
+}
+
+.akc-text-dark-gray {
+    color: #A9A9A9;
+}
+
+/* Shades of brown */
+.akc-text-brown {
+    color: #8B4513;
+}
+
+.akc-text-light-brown {
+    color: #CD853F;
+}
+
+.akc-text-dark-brown {
+    color: #A52A2A;
+}
+
+/* Shades of teal */
+.akc-text-teal {
+    color: #008080;
+}
+
+.akc-text-light-teal {
+    color: #00FFFF;
+}
+
+.akc-text-dark-teal {
+    color: #006666;
+}
+
+.akc-text-tralim{
+    color:#F58021;
+}
+
+.akc-text-light-tralim{
+    color:#F58021;
+    
+
+
+}
+
+.akc-text-tralim-secondary{
+    color:#1d3853;
+}
+
+/* Shades of cyan */
+
+
+
+
+/* css:fw start */
+.akc-fw-xxx-small {
+    font-weight: 100;
+}
+
+.akc-fw-xx-small {
+    font-weight: 200;
+}
+
+.akc-fw-x-small {
+    font-weight: 300;
+}
+
+.akc-fw-small {
+    font-weight: 400;
+}
+
+.akc-fw-medium {
+    font-weight: 500;
+}
+
+.akc-fw-large {
+    font-weight: 600;
+}
+
+.akc-fw-x-large {
+    font-weight: 700;
+}
+
+.akc-fw-xx-large {
+    font-weight: 800;
+}
+
+.akc-fw-xxx-large {
+    font-weight: 900;
+}
+
+/* css:fw end */
+
+
+/* css:font-sizes */
+/* css:font-sizes */
+.akc-ft-size-xx-small {
+    font-size: 10px;
+}
+
+.akc-ft-size-x-small {
+    font-size: 12px;
+}
+
+.akc-ft-size-small {
+    font-size: 14px;
+}
+
+.akc-ft-size-medium {
+    font-size: 16px;
+}
+
+.akc-ft-size-large {
+    font-size: 20px;
+}
+
+.akc-ft-size-x-large {
+    font-size: 24px;
+}
+
+.akc-ft-size-xx-large {
+    font-size: 32px;
+}
+
+.akc-ft-size-xxx-large {
+    font-size: 48px;
+}
+
+/* css:font-sizes */
+
+/* css:displays */
+.akc-d-none {
+    display: none;
+}
+
+.akc-d-block {
+    display: block;
+}
+
+.akc-d-inline {
+    display: inline;
+}
+
+.akc-d-inline-block {
+    display: inline-block;
+}
+
+.akc-d-flex {
+    display: flex;
+}
+
+.akc-d-grid {
+    display: grid;
+}
+
+/* css:displays */
+
+
+/* css:border-radius */
+.akc-b-radius-xx-small{
+    border-radius: 2px;
+}
+
+/* Extra small */
+.akc-b-radius-x-small {
+    border-radius: 4px;
+}
+
+/* Small */
+.akc-b-radius-small {
+    border-radius: 8px;
+}
+
+/* Medium */
+.akc-b-radius-medium {
+    border-radius: 12px;
+}
+
+/* Large */
+.akc-b-radius-large {
+    border-radius: 16px;
+}
+
+/* Extra large */
+.akc-b-radius-x-large {
+    border-radius: 20px;
+}
+
+
+/* css:border-radius */
+
+
+
+/* css:overflow */
+/* Hidden */
+.akc-oflow-hidden {
+    overflow: hidden;
+}
+
+/* Visible */
+.akc-oflow-visible {
+    overflow: visible;
+}
+
+/* Scroll */
+.akc-oflow-scroll {
+    overflow: scroll;
+}
+
+/* Auto */
+.akc-oflow-auto {
+    overflow: auto;
+}
+
+/* Clip */
+.akc-oflow-clip {
+    overflow: clip;
+}
+
+/* css:overflow */
+
+
+/* css:cursor */
+.akc-cur-pointer {
+    cursor: pointer;
+}
+.akc-cur-default {
+    cursor: default;
+}
+.akc-cur-wait {
+    cursor: wait;
+}
+.akc-cur-text {
+    cursor: text;
+}
+.akc-cur-move {
+    cursor: move;
+}
+.akc-cur-help {
+    cursor: help;
+}
+.akc-cur-not-allowed {
+    cursor: not-allowed;
+}
+.akc-cur-grab {
+    cursor: grab;
+}
+.akc-cur-grabbing {
+    cursor: grabbing;
+}
+.akc-cur-crosshair {
+    cursor: crosshair;
+}
+.akc-cur-ns-resize {
+    cursor: ns-resize;
+}
+/* css:cursor */
+
+
+/* css:box-shadow */
+/* Extra extra small */
+
+
+.akc-box-shadow-xxx-small{
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Extra small */
+.akc-box-shadow-xx-small{
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Small */
+.akc-box-shadow-x-small{
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Medium */
+.akc-box-shadow-medium{
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Large */
+.akc-box-shadow-large{
+    box-shadow: 12px 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Extra large */
+.akc-box-shadow-x-large{
+    box-shadow: 16px 16px 32px rgba(0, 0, 0, 0.2);
+}
+
+/* css:box-shadow */
+
+
+
+/* css:width */
+.akc-width-5px{
+    width: 5px;
+}
+
+.akc-width-10px{
+    width: 10px;
+}
+.akc-width-15px{
+    width: 15px;
+}
+.akc-width-20px{
+    width: 20px;
+}
+
+.akc-width-25px{
+    width: 25px;
+}
+
+.akc-width-30px{
+    width: 30px;
+}
+
+.akc-width-50px{
+    width: 50px;
+}
+
+.akc-width-75px{
+    width: 75px;
+}
+
+.akc-width-100px{
+    width: 100px;
+}
+
+.akc-width-150px{
+    width: 150px;
+}
+
+.akc-width-200px{
+    width: 200px !important;
+}
+
+.akc-width-300px{
+    width: 300px;
+}
+
+/* css:width */
+
+
+
+/* css:background */
+.akc-bg-orange-tralim{
+    background-color: #F58021;
+}
+.akc-bg-light-orange-tralim{
+    background-color: #f6f4f1;
+}
+/* css:background */
+.float-end{
+    float: right;
+}
+.float-start{
+    float: left;
+}
