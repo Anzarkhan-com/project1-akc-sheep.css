@@ -1,5 +1,5 @@
 /* utility:card */
-.tralim-card{
+.tralim-card {
     /* 0px 10px 50px 0px rgba(26, 46, 85, 0.1);
 border-radius: 10px; */
     box-shadow: 0px 2px 7px 0px rgba(26, 46, 85, 0.1);
@@ -7,75 +7,76 @@ border-radius: 10px; */
     padding: 20px;
     margin-bottom: 20px;
 }
+
 /* utility:card */
 
 /* utility:heading */
+
 /* Extra extra small */
-/* Extra extra small */
-.akc-heading-xxx-small{
+.akc-heading-xxx-small {
     font-size: 12px;
-    font-weight: bold;
+    font-weight: bold !important;
     line-height: 1.2;
 }
 
 /* Extra small */
-.akc-heading-xx-small{
+.akc-heading-xx-small {
     font-size: 14px;
-    font-weight: bold;
+    font-weight: bold !important;
     line-height: 1.2;
 }
 
 /* Small */
-.akc-heading-x-small{
+.akc-heading-x-small {
     font-size: 16px;
-    font-weight: bold;
+    font-weight: bold !important;
     line-height: 1.2;
 }
 
 /* small */
-.akc-heading-small{
+.akc-heading-small {
     font-size: 18px;
     font-weight: bold;
     line-height: 1.2;
 }
 
 /* Medium */
-.akc-heading-medium{
+.akc-heading-medium {
     font-size: 20px;
     font-weight: bold;
     line-height: 1.2;
 }
 
 /* Large */
-.akc-heading-large{
+.akc-heading-large {
     font-size: 28px;
     font-weight: bold;
     line-height: 1.2;
 }
 
 /* Extra large */
-.akc-heading-x-large{
+.akc-heading-x-large {
     font-size: 36px;
     font-weight: bold;
     line-height: 1.2;
 }
 
 /* Extra extra large */
-.akc-heading-xx-large{
+.akc-heading-xx-large {
     font-size: 48px;
     font-weight: bold;
     line-height: 1.2;
 }
 
 /* Extra extra extra large */
-.akc-heading-xxx-large{
+.akc-heading-xxx-large {
     font-size: 60px;
     font-weight: bold;
     line-height: 1.2;
 }
 
 /* Huge */
-.akc-heading-xxxx-large{
+.akc-heading-xxxx-large {
     font-size: 72px;
     font-weight: bold;
     line-height: 1.2;
@@ -84,61 +85,156 @@ border-radius: 10px; */
 
 /* utility:heading */
 
+/* utility:paragraph */
+/* Extra small paragraph */
+.akc-paragraph-xx-small {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+/* Small paragraph */
+.akc-paragraph-x-small {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Standard paragraph */
+.akc-paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Medium paragraph */
+.akc-paragraph-medium {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Large paragraph */
+.akc-paragraph-large {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+/* Extra large paragraph */
+.akc-paragraph-x-large {
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+/* utility:paragraph */
+
+
 
 /* utility:rect-box */
-.akc-rect-box-xxx-small{
+.akc-rect-box-xxx-small {
     height: 5px;
     width: 7px;
 }
 
-.akc-rect-box-xx-small{
+.akc-rect-box-xx-small {
     height: 10px;
     width: 15px;
 }
 
-.akc-rect-box-x-small{
+.akc-rect-box-x-small {
     height: 20px;
     width: 30px;
 }
 
-.akc-rect-box-small{
+.akc-rect-box-small {
     height: 30px;
     width: 50px;
 }
 
-.akc-rect-box-medium{
+.akc-rect-box-medium {
     height: 50px;
     width: 75px;
 }
 
-.akc-rect-box-large{
+.akc-rect-box-large {
     height: 75px;
     width: 100px;
 }
 
-.akc-rect-box-x-large{
+.akc-rect-box-x-large {
     height: 100px;
     width: 150px;
 }
 
-.akc-rect-box-xx-large{
+.akc-rect-box-xx-large {
     height: 150px;
     width: 200px;
 }
 
-.akc-rect-box-xxx-large{
+.akc-rect-box-xxx-large {
     height: 200px;
     width: 300px;
 }
+
 /* css:rect-box */
+
+/* Circular boxes */
+.akc-circle-box-xxx-small {
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+}
+
+.akc-circle-box-xx-small {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+
+.akc-circle-box-x-small {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.akc-circle-box-small {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.akc-circle-box-medium {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.akc-circle-box-large {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+}
+
+.akc-circle-box-x-large {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.akc-circle-box-xx-large {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.akc-circle-box-xxx-large {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
 
 /* utility:rect-box */
 
 /* social buttons */
 /* facebook */
-.btn-facebook-light {
-    background-color: #3b5998;
-    color: white;
+/* Common styles for social buttons */
+.akc-social-btn {
     border-radius: 100px;
     height: 50px;
     width: 50px;
@@ -149,130 +245,127 @@ border-radius: 10px; */
     padding: 10px;
     margin-right: 10px;
 }
-.btn-facebook-light:hover {
+
+/* Facebook */
+.akc-btn-facebook {
+    background-color: #3b5998;
+    color: white;
+}
+
+.akc-btn-facebook:hover {
     background-color: #FFFFFF;
     color: #3b5998;
     border: 1px solid #3b5998;
 }
-/* twitter */
-.btn-twitter-light {
-    background-color: #55acee;
-    color: white;
-    border-radius: 100px;
-    height: 50px;
-    width: 50px;
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 1.5;
-    text-align: center;
-    padding: 10px;
-    margin-right: 10px;
+
+.akc-btn-facebook-light {
+    background-color: #E8F1FE !important;
+    color: #3b5998 !important;
 }
-.btn-twitter-light:hover {
-    background-color: #FFFFFF;
-    color: #55acee;
-    border: 1px solid #55acee;
-}
-/* whatsapp */
-.btn-whatsapp-light {
-    background-color: #25D366;
-    color: white;
-    border-radius: 100px;
-    height: 50px;
-    width: 50px;
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 1.5;
-    text-align: center;
-    padding: 10px;
-    margin-right: 10px;
-}
-.btn-whatsapp-light:hover {
-    background-color: #FFFFFF;
-    color: #25D366;
-    border: 1px solid #25D366;
-}
-/* linkedin */
-.btn-linkedin-light {
-    background-color: #0077B5;
-    color: white;
-    border-radius: 100px;
-    height: 50px;
-    width: 50px;
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 1.5;
-    text-align: center;
-    padding: 10px;
-    margin-right: 10px;
-}
-.btn-linkedin-light:hover {
-    background-color: #FFFFFF;
-    color: #0077B5;
-    border: 1px solid #0077B5;
-}
-/* telegram */
-.btn-telegram-light {
-    background-color: #0088cc;
-    color: white;
-    border-radius: 100px;
-    height: 50px;
-    width: 50px;
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 1.5;
-    text-align: center;
-    padding: 10px;
-    margin-right: 10px;
-}
-.btn-telegram-light:hover {
-    background-color: #FFFFFF;
-    color: #0088cc;
-    border: 1px solid #0088cc;
-}
-/* mail */
-.btn-email-light {
-    background-color: #D44638;
-    color: white;
-    border-radius: 100px;
-    height: 50px;
-    width: 50px;
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 1.5;
-    text-align: center;
-    padding: 10px;
-    margin-right: 10px;
-}
-.btn-email-light:hover {
-    background-color: #FFFFFF;
-    color: #D44638;
-    border: 1px solid #D44638;
-}
-/* copy */
-.btn-copy-light {
+
+/* Twitter */
+.akc-btn-twitter {
     background-color: #000000;
     color: white;
-    border-radius: 100px;
-    height: 50px;
-    width: 50px;
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 1.5;
-    text-align: center;
-    padding: 10px;
-    margin-right: 10px;
 }
-.btn-copy-light:hover {
+
+.akc-btn-twitter:hover {
     background-color: #FFFFFF;
     color: #000000;
     border: 1px solid #000000;
 }
 
+.akc-btn-twitter-light {
+    background-color: #2c2b2b1a !important;
+    color: #000000 !important;
+}
+
+/* WhatsApp */
+.akc-btn-whatsapp {
+    background-color: #25D366;
+    color: white;
+}
+
+.akc-btn-whatsapp:hover {
+    background-color: #FFFFFF;
+    color: #25D366;
+    border: 1px solid #25D366;
+}
+
+.akc-btn-whatsapp-light {
+    background-color: #E9FBF0 !important;
+    color: #25D366 !important;
+}
+
+/* LinkedIn */
+.akc-btn-linkedin {
+    background-color: #0077B5;
+    color: white;
+}
+
+.akc-btn-linkedin:hover {
+    background-color: #FFFFFF;
+    color: #0077B5;
+    border: 1px solid #0077B5;
+}
+
+.akc-btn-linkedin-light {
+    background-color: #0077B51a !important;
+    color: #0077B5 !important;
+}
+
+/* Telegram */
+.akc-btn-telegram {
+    background-color: #0088cc;
+    color: white;
+}
+
+.akc-btn-telegram:hover {
+    background-color: #FFFFFF;
+    color: #0088cc;
+    border: 1px solid #0088cc;
+}
+
+.akc-btn-telegram-light {
+    background-color: #E6F3FA !important;
+    color: #0088cc !important;
+}
+
+/* Email */
+.akc-btn-email {
+    background-color: #D44638;
+    color: white;
+}
+
+.akc-btn-email:hover {
+    background-color: #FFFFFF;
+    color: #D44638;
+    border: 1px solid #D44638;
+}
+
+.akc-btn-email-light {
+    background-color: #D446381a !important;
+    color: #D44638 !important;
+}
+
+/* Copy */
+.akc-btn-copy {
+    background-color: #000000;
+    color: white;
+}
+
+.akc-btn-copy:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 1px solid #000000;
+}
+
+.akc-btn-copy-light {
+    background-color: #0000001a;
+    color: #000000;
+}
 
 
-
-    
 /* social buttons */
 
 
@@ -345,6 +438,7 @@ border-radius: 10px; */
 .akc-text-mauve {
     color: #8B008B;
 }
+
 /* Shades of pink */
 .akc-text-pink {
     color: #FF69B4;
@@ -376,6 +470,8 @@ border-radius: 10px; */
     color: #808080;
 }
 
+
+
 .akc-text-light-gray {
     color: #D3D3D3;
 }
@@ -383,6 +479,8 @@ border-radius: 10px; */
 .akc-text-dark-gray {
     color: #A9A9A9;
 }
+
+
 
 /* Shades of brown */
 .akc-text-brown {
@@ -410,19 +508,23 @@ border-radius: 10px; */
     color: #006666;
 }
 
-.akc-text-tralim{
-    color:#F58021;
+.akc-text-tralim {
+    color: #F58021;
 }
 
-.akc-text-light-tralim{
-    color:#F58021;
-    
+.akc-text-light-tralim {
+    color: #F58021;
+
 
 
 }
 
-.akc-text-tralim-secondary{
-    color:#1d3853;
+.akc-text-tralim-secondary {
+    color: #1d3853;
+}
+
+.akc-text-propage-secondary {
+    color: #2d2929;
 }
 
 /* Shades of cyan */
@@ -535,7 +637,8 @@ border-radius: 10px; */
 
 
 /* css:border-radius */
-.akc-b-radius-xx-small{
+/* border */
+.akc-b-radius-xx-small {
     border-radius: 2px;
 }
 
@@ -563,6 +666,151 @@ border-radius: 10px; */
 .akc-b-radius-x-large {
     border-radius: 20px;
 }
+
+
+/* border top right */
+.akc-btr-radius-xx-small {
+    border-top-right-radius: 2px;
+}
+
+/* Extra small */
+.akc-btr-radius-x-small {
+    border-top-right-radius: 4px;
+}
+
+/* Small */
+.akc-btr-radius-small {
+    border-top-right-radius: 8px;
+}
+
+/* Medium */
+.akc-btr-radius-medium {
+    border-top-right-radius: 12px;
+}
+
+/* Large */
+.akc-btr-radius-large {
+    border-top-right-radius: 16px;
+}
+
+/* Extra large */
+.akc-btr-radius-x-large {
+    border-top-right-radius: 20px;
+}
+
+/* border bottom right */
+.akc-bbr-radius-xx-small {
+    border-bottom-right-radius: 2px;
+}
+
+/* Extra small */
+.akc-bbr-radius-x-small {
+    border-bottom-right-radius: 4px;
+}
+
+/* Small */
+.akc-bbr-radius-small {
+    border-bottom-right-radius: 8px;
+}
+
+/* Medium */
+.akc-bbr-radius-medium {
+    border-bottom-right-radius: 12px;
+}
+
+/* Large */
+.akc-bbr-radius-large {
+    border-bottom-right-radius: 16px;
+}
+
+/* Extra large */
+.akc-bbr-radius-x-large {
+    border-bottom-right-radius: 20px;
+}
+
+
+/* border bottom left */
+.akc-bbl-radius-xx-small {
+    border-bottom-left-radius: 2px;
+}
+
+
+/* Extra small */
+.akc-bbl-radius-x-small {
+    border-bottom-left-radius: 4px;
+}
+
+/* Small */
+.akc-bbl-radius-small {
+    border-bottom-left-radius: 8px;
+}
+
+/* Medium */
+.akc-bbl-radius-medium {
+    border-bottom-left-radius: 12px;
+}
+
+/* Large */
+.akc-bbl-radius-large {
+    border-bottom-left-radius: 16px;
+}
+
+/* Extra large */
+.akc-bbl-radius-x-large {
+    border-bottom-left-radius: 20px;
+}
+
+/* border top left */
+.akc-btl-radius-xx-small {
+    border-top-left-radius: 2px;
+}
+
+
+/* Extra small */
+.akc-btl-radius-x-small {
+    border-top-left-radius: 4px;
+}
+
+/* Small */
+.akc-btl-radius-small {
+    border-top-left-radius: 8px;
+}
+
+/* Medium */
+.akc-btl-radius-medium {
+    border-top-left-radius: 12px;
+}
+
+/* Large */
+.akc-btl-radius-large {
+    border-top-left-radius: 16px;
+}
+
+/* Extra large */
+.akc-btl-radius-x-large {
+    border-top-left-radius: 20px;
+}
+
+/* border top */
+.akc-bt-radius-xx-small {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+/* Extra small */
+.akc-bt-radius-x-small {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+/* Small */
+.akc-bt-radius-small {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+
+
 
 
 /* css:border-radius */
@@ -602,36 +850,47 @@ border-radius: 10px; */
 .akc-cur-pointer {
     cursor: pointer;
 }
+
 .akc-cur-default {
     cursor: default;
 }
+
 .akc-cur-wait {
     cursor: wait;
 }
+
 .akc-cur-text {
     cursor: text;
 }
+
 .akc-cur-move {
     cursor: move;
 }
+
 .akc-cur-help {
     cursor: help;
 }
+
 .akc-cur-not-allowed {
     cursor: not-allowed;
 }
+
 .akc-cur-grab {
     cursor: grab;
 }
+
 .akc-cur-grabbing {
     cursor: grabbing;
 }
+
 .akc-cur-crosshair {
     cursor: crosshair;
 }
+
 .akc-cur-ns-resize {
     cursor: ns-resize;
 }
+
 /* css:cursor */
 
 
@@ -639,32 +898,32 @@ border-radius: 10px; */
 /* Extra extra small */
 
 
-.akc-box-shadow-xxx-small{
+.akc-box-shadow-xxx-small {
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 /* Extra small */
-.akc-box-shadow-xx-small{
+.akc-box-shadow-xx-small {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 /* Small */
-.akc-box-shadow-x-small{
+.akc-box-shadow-x-small {
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Medium */
-.akc-box-shadow-medium{
+.akc-box-shadow-medium {
     box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 /* Large */
-.akc-box-shadow-large{
+.akc-box-shadow-large {
     box-shadow: 12px 12px 24px rgba(0, 0, 0, 0.2);
 }
 
 /* Extra large */
-.akc-box-shadow-x-large{
+.akc-box-shadow-x-large {
     box-shadow: 16px 16px 32px rgba(0, 0, 0, 0.2);
 }
 
@@ -673,49 +932,51 @@ border-radius: 10px; */
 
 
 /* css:width */
-.akc-width-5px{
+.akc-width-5px {
     width: 5px;
 }
 
-.akc-width-10px{
+.akc-width-10px {
     width: 10px;
 }
-.akc-width-15px{
+
+.akc-width-15px {
     width: 15px;
 }
-.akc-width-20px{
+
+.akc-width-20px {
     width: 20px;
 }
 
-.akc-width-25px{
+.akc-width-25px {
     width: 25px;
 }
 
-.akc-width-30px{
+.akc-width-30px {
     width: 30px;
 }
 
-.akc-width-50px{
+.akc-width-50px {
     width: 50px;
 }
 
-.akc-width-75px{
+.akc-width-75px {
     width: 75px;
 }
 
-.akc-width-100px{
+.akc-width-100px {
     width: 100px;
 }
 
-.akc-width-150px{
+.akc-width-150px {
     width: 150px;
 }
 
-.akc-width-200px{
+.akc-width-200px {
     width: 200px !important;
 }
 
-.akc-width-300px{
+.akc-width-300px {
     width: 300px;
 }
 
@@ -724,16 +985,141 @@ border-radius: 10px; */
 
 
 /* css:background */
-.akc-bg-orange-tralim{
+.akc-bg-orange-tralim {
     background-color: #F58021;
 }
-.akc-bg-light-orange-tralim{
+
+.akc-bg-light-orange-tralim {
     background-color: #f6f4f1;
 }
+
+
+
+.bg-light-warning {
+    background-color: #fff8dd !important;
+
+}
+
+.bg-light-primary {
+    background-color: #f1faff !important;
+}
+
+
+
+.bg-light-success {
+    background-color: #e8fff3;
+
+
+}
+
+
+
+
+.bg-light-danger {
+    background-color: #f1416c5f;
+}
+
 /* css:background */
-.float-end{
+
+
+.float-end {
     float: right;
 }
-.float-start{
+
+.float-start {
     float: left;
 }
+
+
+
+
+.fs-1 {
+    font-size: 1.5rem !important;
+}
+
+.fs-2 {
+    font-size: 1.25rem !important;
+}
+
+.fs-3 {
+    font-size: 1rem !important;
+}
+
+.fs-4 {
+    font-size: 0.875rem !important;
+}
+
+.fs-5 {
+    font-size: 0.75rem !important;
+}
+
+.fs-6 {
+    font-size: 0.625rem !important;
+}
+
+.fs-10 {
+    font-size: 4rem !important;
+}
+
+
+
+
+
+.top-0-bottom-0 {
+    top: 0;
+    bottom: 0;
+}
+
+
+
+
+/* utility borders*/
+.akc-border-bottom-light {
+    border-bottom: 1px solid lightgray;
+    /* Example: A light gray 1px solid border */
+}
+
+.akc-border-right-propage {
+    border-right: 1px solid #7265E0;
+    /* Example: A light gray 1px solid border */
+}
+
+.akc-border-right-light {
+    border-right: 1px solid lightgray;
+    /* Example: A light gray 1px solid border */
+}
+
+.akc-border-light {
+    border: 1px solid lightgray;
+    /* Example: A light gray 1px solid border */
+}
+
+.akc-border-light-small {
+    border: 0.5px solid lightgray;
+    /* Example: A light gray 1px solid border */
+}
+
+
+/* utility : background */
+.akc-bg-light {
+    background-color: #f6f4f1;
+}
+
+.akc-bg-f5 {
+    background-color: #f5f5f5;
+}
+
+.akc-bg-propage-light {
+    background-color: #f2f0ff;
+}
+
+/* #e1e0ff */
+.akc-bg-propage-light-2 {
+    background-color: #e1e0ff;
+}
+
+.akc-bg-propage {
+    background-color: #7265E0;
+}
+
+/* utility : background */
